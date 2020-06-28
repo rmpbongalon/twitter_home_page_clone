@@ -344,4 +344,12 @@ textarea[name=tweetfield]{
 	padding: 0.1em 0.7em;
 	text-align: center;
 }
+
+.footertext{
+	margin: 1em 0 1em 2em;
+}
+
+.footertext a, .footertext p{
+	font-size: small;
+}
 /*----------------------------------*/
