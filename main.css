@@ -3,6 +3,141 @@
 	src: url(resources/font/Helvetica.ttf);
 }
 
+/*--- STYLE FOR THE CHEVRON IMAGE --*/
+#navdrpd{
+	background: url(resources/images/dropdownsc.png);
+	background-size: 20px 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 30px;
+	border-radius:100%;
+}
+/*----------------------------------*/
+
+
+/*---       FIRST COLUMN          --*/  
+#fcontents{
+	margin: 5.25px auto auto;
+	padding-right: 10%;
+	top:0; left:0; bottom:0; right:0;
+}
+
+.bird_icon i{
+	margin-bottom: 15px;
+	color: dodgerblue;
+}
+
+#usericonnavpic{
+	width:40px;
+	margin-right: 0.5em; 
+}
+
+#usericonnav p{
+	font-size: 13px;
+	margin-bottom: 0; 
+	background: white;
+} 
+
+#usericonnav a{
+	color: #14171a;
+}
+
+#usericonnav{
+	position: fixed;
+ 	bottom:5px;
+ 	width: 12em;
+}
+
+#sidenavsmall #usericonnav{
+ 	margin: 0px 0px 0px 10px;
+}
+
+#sidenavbig #usericonnav{
+ 	margin: 0px 0px 0px 25px;
+}
+
+#first_col_b{
+	margin-left: 15px;
+	width: 25px;
+	height: 25px;
+	border: none;
+	padding-left: 35px;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 25px 25px;
+}
+
+#sidenavsmall #first_col_b{
+	padding-top: 2px;
+}
+
+#sidenavbig #first_col_b{
+	font-weight: bold;
+	font-size: 17.5px;
+	color: #14171a;
+}
+
+.sidehome{
+	background: url(resources/images/homesc.png);
+}
+
+.sidenotif{
+	background: url(resources/images/bellsc.png);
+}
+
+.sideexplore{
+	background: url(resources/images/hashtagsc.png);
+}
+
+.sidemsgs{
+	background: url(resources/images/envsc.png);
+}
+
+.sidebook{
+	background: url(resources/images/ribbonsc.png);
+}
+
+.sidelist{
+	background: url(resources/images/papersc.png);
+}
+
+.sideprofile{
+	background: url(resources/images/avatarsc.png);
+}
+
+.sidemore{
+	background: url(resources/images/moresc.png);
+}
+
+#sidenavbig .tweetbtn{
+ 	background: #1da1f2;
+ 	font-weight: bold;
+	font-size: 0.85em;
+	color: white;
+	border-radius: 70px;
+	border:none;
+	margin-left: 18px;
+	text-align: center;
+	width: 13em;
+	height: 3em;
+}
+
+#sidenavsmall .tweetbtn{
+ 	background-image: url(resources/images/compose.png);
+ 	width: 35px;
+ 	height:35px;
+ 	background-size: 35px 35px; 
+	background-color: transparent;
+	margin-left: 10px;
+	border:none;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*----------------------------------*/
+
+
+/*---       SECOND COLUMN         --*/
 .second_col{
 	border-left: 1px solid#e6ecf0;
 	border-right: 1px solid#e6ecf0;
@@ -129,3 +264,4 @@ textarea[name=tweetfield]{
 .share{
  	background: url(resources/images/sharesc.png);
 }
+/*----------------------------------*/

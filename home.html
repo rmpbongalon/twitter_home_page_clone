@@ -10,56 +10,177 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand sticky-top" id="first_row">
-      <a class="navbar-brand d-lg-none">
-        <img src="./resources/images/pf.jpg">
-      </a>
 
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="">Home</a>
-        </li>
-      </ul>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2 col-sm-2 col-md-2 col-lg-3 position-fixed mx-0 px-0">
+          <div class="nav flex-column flex-nowrap float-right vh-100 overflow-auto text-white" id="fcontents">
+              <div class="first_col">
+                  <div class="bird_icon">
+                    <a class="btn" href=""><i class="fa fa-twitter fa-2x"></i></a>
+                  </div>
 
-      <div class="nav-item dropdown">
-        <a class="nav-link" id="contentsettings" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                  <!-- FIRST COLUMN ON SMALL SCREENS -->
+                  <div class="d-lg-none" id="sidenavsmall">
+                    <a class="sidehome" id="first_col_b" href="" role="button"><br></a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sideexplore" id="first_col_b" role="button"><br></a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sidenotif" id="first_col_b" role="button"><br></a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sidemsgs" id="first_col_b" role="button"><br></a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sidebook" id="first_col_b" role="button"><br> </a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sidelist" id="first_col_b" role="button"><br> </a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sideprofile" id="first_col_b" role="button"><br></a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sidemore" id="first_col_b" role="button"><br></a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <button class="tweetbtn"></button>
+
+                    <br> <br> <br> <br> <br> 
+
+                    <div class="media border-none" id="usericonnav">
+                      <a>
+                        <img src="./resources/images/pf.jpg" class="rounded-circle" id="usericonnavpic">
+                      </a>
+                    </div>
+                  </div>
+
+                  <!--  FIRST COLUMN ON BIG SCREENS  -->
+                  <div class="d-none d-lg-block" id="sidenavbig">
+                    <a class="sidehome" id="first_col_b" href="" role="button">Home<br></a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sideexplore" id="first_col_b" role="button">Explore<br></a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sidenotif" id="first_col_b" role="button">Notifications<br></a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sidemsgs" id="first_col_b" role="button">Messages<br></a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sidebook" id="first_col_b" role="button">Bookmarks<br> </a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sidelist" id="first_col_b" role="button">Lists<br> </a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sideprofile" id="first_col_b" role="button">Profile<br></a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <a class="sidemore" id="first_col_b" role="button">More<br></a>
+
+                    <p id="smallthanbr"> </p>
+
+                    <button class="tweetbtn" id="tweetbtnbig">Tweet</button>
+                    <br> <br> <br> <br> <br> 
+                    <div class="media border-none" id="usericonnav">
+                      <a>
+                      <img src="./resources/images/pf.jpg" class="rounded-circle" id="usericonnavpic">
+                      </a>
                 
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="contentsettings">
-            <a class="dropdown-item"><b>Home shows you top Tweets first</b></a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item">See latest Tweets instead</a>
-            <a class="dropdown-item">View content preferences</a>
-        </div>
-      </div>
-    </nav>
+                      <p><a class="name"><b>🐋</b></a><br><a class="username">@ressamae_</a></p>
+                      
+                      <div class="media-body"></div><!-- after this line, images align right -->
 
-    <div class="d-none d-lg-block" id="tweetboxcontainer">
-      <div class="media border-none px-3 py-2">
-        <a href="">
-          <img src="./resources/images/pf.jpg" class="mt-1 mr-2 rounded-circle" id="usericon">
-        </a>
+                      <div class="nav-item dropdown float-right">
+                        <a class="nav-link" id="navdrpd" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                      
+                      <div class="dropdown-menu dropdown-menu-bottom" aria-labelledby="contentsettings">
+                        <a class="dropdown-item">Add an existing account</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item">Log out @ressamae_</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+          
+
+        <div class="col-10 col-sm-10 col-md-10 col-lg-5 offset-2 offset-sm-2 offset=md-2 offset-lg-3 px-0">
+          <div class="second_col">
+            <nav class="navbar navbar-expand sticky-top" id="first_row">
+    
+              <a class="navbar-brand d-lg-none">
+                <img src="./resources/images/pf.jpg">
+              </a>
+
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="">Home</a>
+                </li>
+              </ul>
+
+              <div class="nav-item dropdown">
+                <a class="nav-link" id="contentsettings" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="contentsettings">
+                    <a class="dropdown-item"><b>Home shows you top Tweets first</b></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item">See latest Tweets instead</a>
+                    <a class="dropdown-item">View content preferences</a>
+                </div>
+              </div>
+            </nav>
+
+            <div class="d-none d-lg-block" id="tweetboxcontainer">
+              <div class="media border-none px-3 py-2">
+                <a href="">
+                <img src="./resources/images/pf.jpg" class="mt-1 mr-2 rounded-circle" id="usericon">
+                </a>
               
-        <div class="media-body"><form name="myform"><textarea type="text" name="tweetfield" id="tweetbox" placeholder="What's happening?" maxlength=280></textarea></form></div>
-        </div>
+                <div class="media-body"><form name="myform"><textarea type="text" name="tweetfield" id="tweetbox" placeholder="What's happening?" maxlength=280></textarea></form></div>
+              </div>
 
-        <div class="media border-bottom px-3 pb-2" id="twtattach">
-          <br>
-          <a class="tbimage" id="twtactions" role="button"></a>
+              <div class="media border-bottom px-3 pb-2" id="twtattach">
+                  <br>
+                  <a class="tbimage" id="twtactions" role="button"></a>
 
-          <a class="tbgif" id="twtactions" role="button"></a>
+                  <a class="tbgif" id="twtactions" role="button"></a>
 
-          <a class="tbpoll" id="twtactions" role="button"></a>
+                  <a class="tbpoll" id="twtactions" role="button"></a>
                   
-          <a class="tbemoji" id="twtactions" role="button"></a>
+                  <a class="tbemoji" id="twtactions" role="button"></a>
 
-          <a class="tbsched" id="twtactions" role="button"></a>
+                  <a class="tbsched" id="twtactions" role="button"></a>
 
-          <div class="media-body"></div><!-- after this line images align right -->
+                  <div class="media-body"></div><!-- after this line images align right -->
 
-          <button id="tweetdone">Tweet</button>
-        </div>
-      </div>
-      <div class="tweetcontainer">
+                  <button id="tweetdone">Tweet</button>
+              </div>
+            </div>
+
+            <div class="tweetcontainer">
 
               <!-- TWEET #1 -->
               <div class="media border-bottom px-3 py-2" id="tweet">
@@ -286,11 +407,24 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
 
-  	<script src="mytwitterhome.js"></script>
+
+        <div class="col-0 col-sm-0 col-md-0 col-lg-4 d-none d-lg-block pr-0">
+          <div class="third_col">
+
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="mytwitterhome.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
   </body>
 </html>
