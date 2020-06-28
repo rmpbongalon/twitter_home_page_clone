@@ -2,3 +2,82 @@
 	font-family: myHelvetica;
 	src: url(resources/font/Helvetica.ttf);
 }
+
+.second_col{
+	border-left: 1px solid#e6ecf0;
+	border-right: 1px solid#e6ecf0;
+}
+
+#first_row{
+	height: 53px;
+	font-weight: 800;
+	font-size: 20px;
+	border-bottom: 1px solid#e6ecf0;
+	background: white;
+}
+
+.navbar-brand img{
+	width: 30px;
+	border-radius: 50%;
+
+}
+
+#contentsettings{
+	background: url(resources/images/contentsettings.png);
+	background-size: 25px 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+	margin:8px 0px;
+}
+
+#tweetbox{
+ 	margin-top: 16px;
+ 	width:100%;
+ 	font-size: 1.1em;
+ 	border:none;
+}
+
+textarea[name=tweetfield]{
+	resize: none;
+	height: 4em;
+}
+
+#twtattach #tweetdone{
+	background: #1da1f2;
+ 	font-weight: bold;
+	font-size: 0.85em;
+	color: white;
+	border-radius: 50px;
+	border:none;
+	margin-left: 18px;
+	text-align: center;
+	width: 6em;
+	height: 2em;
+}
+
+.tbimage{
+ 	background: url(resources/images/tbimage.png);
+ 	margin-left: 4em;
+}
+
+.tbgif{
+ 	background: url(resources/images/tbgif.png);
+ 	margin-left: 0.80em;
+}
+
+.tbpoll{
+ 	background: url(resources/images/tbpoll.png);
+ 	margin-left: 0.80em;
+}
+
+.tbemoji{
+ 	background: url(resources/images/tbemoji.png);
+ 	margin-left: 0.80em;
+}
+
+.tbsched{
+ 	background: url(resources/images/tbsched.png);
+ 	margin-left: 0.80em;
+}
