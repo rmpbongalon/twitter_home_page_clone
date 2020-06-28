@@ -265,3 +265,25 @@ textarea[name=tweetfield]{
  	background: url(resources/images/sharesc.png);
 }
 /*----------------------------------*/
+
+
+/*---       THIRD COLUMN          --*/
+#searchboxcontainer{
+	height: 53px;
+	background-color: white;
+}
+
+#searchbox{
+ 	background-image: url(resources/images/searchsc.png);
+	background-size: 15px 15px; 
+	background-position: 5%;
+	background-repeat: no-repeat;
+	font-size: 1em;
+	background-color: #e6ecf0;
+	border:none;
+	border-radius: 70px; 
+	padding-left: 15%;
+	width: 90%;
+	height: 36px;
+}
+/*----------------------------------*/
