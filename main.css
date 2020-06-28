@@ -81,3 +81,51 @@ textarea[name=tweetfield]{
  	background: url(resources/images/tbsched.png);
  	margin-left: 0.80em;
 }
+
+.media-body p{
+ 	font-size: 15px;
+}
+
+.media-body a{
+ 	color: #14171a;
+}
+
+#usericon{
+ 	width:49px;
+}
+
+.tweetimage{
+ 	width: 100%;
+ 	height: auto;
+ 	max-width: 100%;
+ 	margin-bottom: 5px;
+}
+
+#twtactions{
+	width: 20px;
+	height: 20px;
+	border: none;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+}
+
+#tweetactionscontainer{
+	padding-top: none;
+}
+
+.comment{
+ 	background: url(resources/images/commentsc.png);
+}
+
+.retweet{
+ 	background: url(resources/images/retwtsc.png);
+}
+
+.like{
+ 	background: url(resources/images/likesc.png);
+}
+
+.share{
+ 	background: url(resources/images/sharesc.png);
+}
