@@ -16,6 +16,13 @@
 /*----------------------------------*/
 
 
+/*---   SETS OTHER TEXT TO BLUE   --*/
+#bluetext{
+	color: #3badf3;
+}
+/*----------------------------------*/
+
+
 /*---       FIRST COLUMN          --*/  
 #fcontents{
 	margin: 5.25px auto auto;
