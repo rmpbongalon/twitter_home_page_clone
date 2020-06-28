@@ -286,4 +286,31 @@ textarea[name=tweetfield]{
 	width: 90%;
 	height: 36px;
 }
+
+#trendtext a{
+ 	color: #14171a;
+}
+
+.trendcontainer{
+ 	background-color: #f5f8fa;
+ 	margin: 1em 0px 1em 1em;
+ 	width: 85%;
+ 	border-radius: 20px;
+}
+
+#headertext{
+	margin-top: 0.5em;
+	font-weight: 800;
+	font-size: 18px;
+}
+
+#settingsdrpd{
+	margin-top: 0.6em;
+	background: url(resources/images/settings.png);
+	background-size: 25px 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+}
 /*----------------------------------*/
