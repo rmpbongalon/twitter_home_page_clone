@@ -33,6 +33,33 @@
       </div>
     </nav>
 
+    <div class="d-none d-lg-block" id="tweetboxcontainer">
+      <div class="media border-none px-3 py-2">
+        <a href="">
+          <img src="./resources/images/pf.jpg" class="mt-1 mr-2 rounded-circle" id="usericon">
+        </a>
+              
+        <div class="media-body"><form name="myform"><textarea type="text" name="tweetfield" id="tweetbox" placeholder="What's happening?" maxlength=280></textarea></form></div>
+        </div>
+
+        <div class="media border-bottom px-3 pb-2" id="twtattach">
+          <br>
+          <a class="tbimage" id="twtactions" role="button"></a>
+
+          <a class="tbgif" id="twtactions" role="button"></a>
+
+          <a class="tbpoll" id="twtactions" role="button"></a>
+                  
+          <a class="tbemoji" id="twtactions" role="button"></a>
+
+          <a class="tbsched" id="twtactions" role="button"></a>
+
+          <div class="media-body"></div><!-- after this line images align right -->
+
+          <button id="tweetdone">Tweet</button>
+        </div>
+      </div>
+
   	<script src="mytwitterhome.js"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
